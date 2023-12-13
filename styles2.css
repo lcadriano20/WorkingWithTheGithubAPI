@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #1a212d;
+    color: #fff;
+
+}
+
+#repositoriesContainer {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  
+  #repositoriesContainer p {
+    padding: 0.8rem;
+    width: 5px;
+    border-radius: 5px;
+    background-color: gray;
+    flex: 0 0 calc(22% - 10px); /* Calcula o tamanho de cada parágrafo para 3 parágrafos por linha com uma margem entre eles */
+    margin: 2px; /* Adiciona margens entre os parágrafos */
+    box-sizing: border-box; /* Garante que as margens não afetem a largura total */
+  }
